@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.marker {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+}
+
+.cloud-integration {
+ background-color: rgb(24, 107, 79);
 }
